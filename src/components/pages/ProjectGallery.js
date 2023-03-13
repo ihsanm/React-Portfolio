@@ -7,53 +7,53 @@ function ProjectGallery() {
     <div>
     
       <Project
-      title= {projects[0].projectName}
+      projectName= {projects[0].projectName}
       image = {projects[0].image}
-      github= {projects[0].githubrepo}
-      deployed= {projects[0].githubpages}
+      githubrepo= {projects[0].githubrepo}
+      githubpages= {projects[0].githubpages}
       description = {projects[0].description}
 
       />
       <Project
-      title= {projects[1].projectName}
+      projectName= {projects[1].projectName}
       image = {projects[1].image}
-      github= {projects[1].githubrepo}
-      deployed= {projects[1].githubpages}
+      githubrepo= {projects[1].githubrepo}
+      githubpages= {projects[1].githubpages}
       description = {projects[1].description}
       />
 
       <Project
-      title= {projects[2].projectName}
+      projectName= {projects[2].projectName}
       image = {projects[2].image}
-      github= {projects[2].githubrepo}
-      deployed= {projects[2].githubpages}
+      githubrepo= {projects[2].githubrepo}
+      githubpages= {projects[2].githubpages}
       description = {projects[2].description}
       
       />
 
 
       <Project
-      title= {projects[3].projectName}
+      projectName= {projects[3].projectName}
       image = {projects[3].image}
-      github= {projects[3].githubrepo}
-      deployed= {projects[3].githubpages}
+      githubrepo= {projects[3].githubrepo}
+      githubpages= {projects[3].githubpages}
       description = {projects[3].description}
       
       />
 
       <Project
-      title= {projects[4].projectName}
+      projectName= {projects[4].projectName}
       image = {projects[4].image}
-      github= {projects[4].githubrepo}
-      deployed= {projects[4].githubpages}
+      githubrepo= {projects[4].githubrepo}
+      githubpages= {projects[4].githubpages}
       description = {projects[4].description}
       
       />
       <Project
-      title= {projects[5].projectName}
+      projectName= {projects[5].projectName}
       image = {projects[5].image}
-      github= {projects[5].githubrepo}
-      deployed= {projects[5].githubpages}
+      githubrepo= {projects[5].githubrepo}
+      githubpages= {projects[5].githubpages}
       description = {projects[5].description}
       
       />

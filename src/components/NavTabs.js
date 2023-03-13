@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const style = {
   navbar: {
-    background: "#001b2e"
+    background: "#1F282D"
   }
 
 }
@@ -33,7 +33,7 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <NavLink
-          to="project"
+          to="ProjectGallery"
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
           }
