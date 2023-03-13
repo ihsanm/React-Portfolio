@@ -13,8 +13,7 @@
 .about-div{
     background-color: #0a0909;
     height: 500px;
-    margin-top: 0px;
-    padding-top: 0px;
+    
 }
 
 /* navbar styling */
@@ -27,5 +26,11 @@
 
 /* project styling */
 .card {
-    width: 100px;
+    width: 25%;
+    display: inline-block;
+}
+/* project gallery styling */
+.projects-div {
+    height: 100px;
+    margin-bottom: 150px;
 }

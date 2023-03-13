@@ -1,10 +1,11 @@
 import React from "react";
 import Project from "./Project";
-import projects from '../projects.json'
+import projects from '../projects.json';
+import "../../assets/styles.css";
 
 function ProjectGallery() {
   return (
-    <div>
+    <div className="projects-div">
     
       <Project
       projectName= {projects[0].projectName}
