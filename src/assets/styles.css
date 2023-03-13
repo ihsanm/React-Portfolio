@@ -1,6 +1,31 @@
+/* Home styling */
+.jumbotron{
+    margin-bottom: 0px;
+}
 
 .welcome {
     color: whitesmoke;
     font-size: 70px;
     
+}
+
+/* About section styling */
+.about-div{
+    background-color: #0a0909;
+    height: 500px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+/* navbar styling */
+.nav {
+    background-color: #0a0909;
+}
+.nav-text{
+    color:whitesmoke;
+}
+
+/* project styling */
+.card {
+    width: 100px;
 }

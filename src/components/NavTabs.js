@@ -1,15 +1,12 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import "../assets/styles.css";
 
-const style = {
-  navbar: {
-    background: "#1F282D"
-  }
 
-}
+
 function NavTabs() {
   return (
-    <ul className="nav nav-tabs" style={style.navbar}>
+    <ul className="nav nav-tabs">
       <li className="nav-item">
         <NavLink
           to="/"
@@ -18,7 +15,7 @@ function NavTabs() {
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          Home
+          <span className='nav-text'>Home</span>
         </NavLink>
       </li>
       <li className="nav-item">
@@ -28,7 +25,7 @@ function NavTabs() {
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          About
+          <span className='nav-text'>About</span>
         </NavLink>
       </li>
       <li className="nav-item">
@@ -38,7 +35,7 @@ function NavTabs() {
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          Project Gallery
+          <span className='nav-text'>Project Gallery</span>
         </NavLink>
       </li>
       <li className="nav-item">
@@ -49,7 +46,7 @@ function NavTabs() {
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          Contact
+          <span className='nav-text'>Contact</span>
         </NavLink>
       </li>
       <li className="nav-item">
