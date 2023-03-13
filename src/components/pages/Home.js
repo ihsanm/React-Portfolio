@@ -1,5 +1,6 @@
 import React from "react";
 import jumbobackground from "../../assets/image2.jpg"
+import "../../assets/styles.css"
 
 // inline styles
 const jumbostyle = {
@@ -13,7 +14,7 @@ function Home() {
   return (
     <div>
       <div className="jumbotron banner" style={jumbostyle}>
-      <h1>Welcome to my little universe</h1>
+      <h1 className="welcome">Welcome to my little universe</h1>
       </div>
     </div>
   );
