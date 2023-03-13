@@ -21,6 +21,9 @@ function App() {
           {/* Define a route that will have descendant routes */}
           <Route path="contact/*" element={<Contact />} />
         </Routes>
+        <About />
+        <ProjectGallery />
+        <Contact />
       </div>
     </Router>
   );
