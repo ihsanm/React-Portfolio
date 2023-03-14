@@ -32,3 +32,4 @@ Here are some guidelines for installing the project on your local machine in ord
 https://github.com/ihsanm/React-Portfolio
 
 ## **_Link URL of deployed app_**
+https://ihsanm.github.io/React-Portfolio/#/
