@@ -30,17 +30,11 @@
 
 /* project styling */
 .card {
-    width: 25%;
+    height: 50px;
+    width: 100%;
     display: inline-block;
     
 }
-/* project gallery styling */
-
-/* .project-div{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-} */
-/* .projects{
-    width:500px
-} */
+.main-card :hover {
+background-color: aqua;
+}

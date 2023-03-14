@@ -3,7 +3,7 @@
         "projectName":"City crime data" ,
         "githubrepo":"https://github.com/ihsanm/City-crime-data" ,
         "githubpages": "https://ihsanm.github.io/City-crime-data/",
-        "image": "placeholder",
+        "image": "../../../assets/images/city-crime-data.png",
         "description": "Want to know the crime rates in your area?, take a look at this!"
 
     },
@@ -11,7 +11,7 @@
         "projectName":"Password generator" ,
         "githubrepo":"https://github.com/ihsanm/Password-Generator" ,
         "githubpages": "placeholder",
-        "image": "placeholder",
+        "image": "../../../assets/images/city-crime-data.png",
         "description": "placeholder"
 
     },

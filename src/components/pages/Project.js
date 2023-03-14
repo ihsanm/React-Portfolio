@@ -5,7 +5,7 @@ import "../../assets/styles.css";
 function Project(props) {
     return (
     
-            <div className="col-sm-12 col-lg-6">
+            <div className="col-sm-12 col-lg-6 main-card">
         <div className="card">
         <div className="img-container">
           <img alt={props.projectName} src={props.image} />
