@@ -1,33 +1,79 @@
 import React from 'react';
-import { Link, Route, Routes } from 'react-router-dom';
-import Learn from './Learn';
+import spaceimg from "../../assets/images/image1.jpg"
+import {SocialIcon} from "react-social-icons"
 
-function Contact(props) {
+const background = {
+  backgroundImage: `url(${spaceimg})`,
+  backgroundRepeat: "no-repeat",
+  backgroundSize: "cover",
+}
+
+function Contact() {
+  
+
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
-      <Link to="learn" role="button" className="btn btn-link">
-        Learn More
-      </Link>
-      <Link to="contact" role="button" className="btn btn-link">
-        Learn Less
-      </Link>
-      <Routes>
-        <Route path="learn" element={<Learn />} />
-      </Routes>
+    <div style={background}>
+      <h1 className='contact-heading'>Contact me!</h1>
+      <form id="contact-form" name="contact-form" className='contact-div'>
+<div className="row">
+
+    
+    <div className="col-md-6">
+        <div className="md-form mb-0">
+            <input type="text" id="name" name="name" className="form-control"/>
+            <label for="name" className="contact-text">Your name</label>
+        </div>
+    </div>
+    
+
+    
+    <div className="col-md-6">
+        <div className="md-form mb-0">
+            <input type="text" id="email" name="email" className="form-control"/>
+            <label for="email" className="contact-text">Your email</label>
+        </div>
+    </div>
+    
+
+</div>
+
+
+
+<div className="row">
+    <div className="col-md-12">
+        <div className="md-form mb-0">
+            <input type="text" id="subject" name="subject" className="form-control"/>
+            <label for="subject" className="contact-text">Subject</label>
+        </div>
+    </div>
+</div>
+
+
+
+<div className="row">
+
+    
+    <div className="col-md-12">
+
+        <div className="md-form">
+            <textarea type="text" id="message" name="message" rows="2" className="form-control md-textarea"></textarea>
+            <label for="message" className='contact-text'>Your message</label>
+        </div>
+
+    </div>
+    <div class="text-center text-md-left">
+                <button class="btn btn-primary">Send</button>
+            </div>
+
+            <div className='icons'>
+              <SocialIcon url="https://www.linkedin.com/in/ihsan-mahmood-6b7919226/"/>
+              <SocialIcon url="https://github.com/ihsanm?tab=repositories" bgColor='white'/>
+              <p className='contact-text'>mahmood.ihsan98989@gmail.com</p>
+            </div>
+</div>
+
+
+</form>
     </div>
   );
 }

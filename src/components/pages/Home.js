@@ -1,5 +1,5 @@
 import React from "react";
-import jumbobackground from "../../assets/image3.jpg";
+import jumbobackground from "../../assets/images/image3.jpg";
 import "../../assets/styles.css";
 
 // inline styles

@@ -9,6 +9,7 @@
     
 }
 
+
 /* About section styling */
 .about-div{
     background-color: #0a0909;
@@ -49,6 +50,33 @@
     
 }
 .main-card :hover {
-background-color: aqua;
+background-color: grey;
 }
+
+/* contact me styling */
+.contact-heading {
+    color: whitesmoke;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+
+}
+
+.contact-text {
+    color: whitesmoke;
+}
+
+.contact-div {
+    padding: 10px;
+}
+
+.icon{
+  display: flex;
+  justify-content: space-around;
+}
+
 
