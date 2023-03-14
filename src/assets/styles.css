@@ -42,15 +42,14 @@
     background-color: #0a0909;
 }
 
-.active {
-    color:black !important
-}
 
 /* project styling */
 .card{
     width:500px !important;
-    background-color: black !important
-    ;
+    background-color: black !important;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
 }
 .card-img-top {
     height: 400px;
@@ -60,6 +59,20 @@
 }
 .main-card :hover {
 background-color: grey;
+}
+.gallery{
+    background-image: url(./images/image3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position:fixed; */
+    width:100%;
+    height:100%;
+    top: auto;
+    left:0px;
+    z-index:1000;
+    display: block;
+    margin: auto;
+
 }
 
 /* contact me styling */

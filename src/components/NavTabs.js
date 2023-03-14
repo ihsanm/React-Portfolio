@@ -20,16 +20,6 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <NavLink
-          to="about"
-          className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
-        >
-          <span className='nav-text'>About</span>
-        </NavLink>
-      </li>
-      <li className="nav-item">
-        <NavLink
           to="ProjectGallery"
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'

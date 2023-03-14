@@ -5,7 +5,7 @@ import "../../assets/styles.css";
 
 function ProjectGallery() {
   return (
-    <div className="row">
+    <div className="gallery">
       
       <Project
       projectName= {projects[0].projectName}
