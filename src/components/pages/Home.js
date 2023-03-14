@@ -1,23 +1,19 @@
 import React from "react";
-import jumbobackground from "../../assets/images/image3.jpg";
 import "../../assets/styles.css";
 import avatar from "../../assets/images/profile-pic.jpg"
 
-// inline styles
-const jumbostyle = {
-  height:"600px",
-  backgroundImage: `url(${jumbobackground})`,
-  backgroundRepeat: "no-repeat",
-  backgroundSize: "cover",
-}
-
 function Home() {
   return (
-    <div>
-      <div className="jumbotron" style={jumbostyle}>
-      <h1 className="welcome">Welcome to my little universe</h1>
+    <div className="homepage">
       <img className="profilepic rounded-circle" src={avatar} alt="profile img"></img>
+      <div className="aboutme">
+      <h1 className="welcome">Hi i'm Ihsan and i'd like to invite you to my little universe</h1>
+      <p className="welcome-p">
+        Hi i'm Ihsan im a junior developer who loves coding and solving puzzles.
+        I'm currently a student in the front end skills bootcamp gathering skills in html, javascript, css, react.
+      </p>
       </div>
+      
     </div>
   );
 }
