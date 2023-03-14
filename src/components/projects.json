@@ -12,7 +12,7 @@
         "githubrepo":"https://github.com/ihsanm/Password-Generator" ,
         "githubpages": "placeholder",
         "image": "password-generator.png",
-        "description": "placeholder"
+        "description": "Need help coming up with a good password, look no further we got you covered!"
 
     },
     {
@@ -20,7 +20,7 @@
         "githubrepo":"https://github.com/ihsanm/Weather-dashboard" ,
         "githubpages": "https://ihsanm.github.io/Weather-dashboard/",
         "image": "weather-dashboard.png",
-        "description": "lorep ipsum"
+        "description": "Interested in the weather forecast for the following 5 days? take a look at this!"
 
     },
     {
@@ -28,7 +28,7 @@
         "githubrepo":"https://github.com/ihsanm/Code-Quiz" ,
         "githubpages": "https://ihsanm.github.io/Code-Quiz/",
         "image": "code-quiz.png",
-        "description": "placeholder"
+        "description": "Want to test your knowledge? have a go at this!"
 
     },
     {
@@ -36,15 +36,15 @@
         "githubrepo":"https://github.com/ihsanm/Work-day-scheduler" ,
         "githubpages": "https://ihsanm.github.io/Work-day-scheduler/",
         "image": "Work-day-sch.png",
-        "description": "placeholder"
+        "description": "Need help sorting out your day? use this!"
 
     },
     {
         "projectName":"Team profile generator" ,
         "githubrepo":"https://github.com/ihsanm/Team-profile-generator" ,
-        "githubpages": "no deployed link for this one sadly, install the repo on your local machine and watch it work",
+        "githubpages": "",
         "image": "team-profile-generator.png",
-        "description": "placeholder"
+        "description": "Create a team of employees managers and interns!"
 
     }
 ]
