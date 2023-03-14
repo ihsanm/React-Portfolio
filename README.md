@@ -14,7 +14,7 @@ This project is my personal portfolio made using Javascript CSS Node.js and reac
 
 ## **_Usage_**
 
-<img src="assets/images/screenshot.png">
+<img src="src\assets\images\screenshot.png">
 
 
 ## **_Installation_**
