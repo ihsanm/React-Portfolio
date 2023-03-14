@@ -74,21 +74,24 @@ background-color: grey;
     margin: auto;
 
 }
+.projectheader{
+    color: white;
+    text-align: center;
+}
+.projectheaderdiv{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
 
 /* contact me styling */
 .contact-heading {
     color: whitesmoke;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    width: 50%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    text-align: center;
     
 
 }
 
-.contact-text {
+.text {
     color: whitesmoke;
 }
 
