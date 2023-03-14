@@ -1,48 +1,48 @@
 [
     {
-        "projectName":"placeholder" ,
-        "githubrepo":"placeholder" ,
+        "projectName":"City crime data" ,
+        "githubrepo":"https://github.com/ihsanm/City-crime-data" ,
+        "githubpages": "https://ihsanm.github.io/City-crime-data/",
+        "image": "placeholder",
+        "description": "Want to know the crime rates in your area?, take a look at this!"
+
+    },
+    {
+        "projectName":"Password generator" ,
+        "githubrepo":"https://github.com/ihsanm/Password-Generator" ,
         "githubpages": "placeholder",
         "image": "placeholder",
         "description": "placeholder"
 
     },
     {
-        "projectName":"placeholder" ,
-        "githubrepo":"placeholder" ,
-        "githubpages": "placeholder",
+        "projectName":"Weather dashboard" ,
+        "githubrepo":"https://github.com/ihsanm/Weather-dashboard" ,
+        "githubpages": "https://ihsanm.github.io/Weather-dashboard/",
+        "image": "placeholder",
+        "description": "lorep ipsum"
+
+    },
+    {
+        "projectName":"Code quiz" ,
+        "githubrepo":"https://github.com/ihsanm/Code-Quiz" ,
+        "githubpages": "https://ihsanm.github.io/Code-Quiz/",
         "image": "placeholder",
         "description": "placeholder"
 
     },
     {
-        "projectName":"placeholder" ,
-        "githubrepo":"placeholder" ,
-        "githubpages": "placeholder",
+        "projectName":"Work day scheduler" ,
+        "githubrepo":"https://github.com/ihsanm/Work-day-scheduler" ,
+        "githubpages": "https://ihsanm.github.io/Work-day-scheduler/",
         "image": "placeholder",
         "description": "placeholder"
 
     },
     {
-        "projectName":"placeholder" ,
-        "githubrepo":"placeholder" ,
-        "githubpages": "placeholder",
-        "image": "placeholder",
-        "description": "placeholder"
-
-    },
-    {
-        "projectName":"placeholder" ,
-        "githubrepo":"placeholder" ,
-        "githubpages": "placeholder",
-        "image": "placeholder",
-        "description": "placeholder"
-
-    },
-    {
-        "projectName":"placeholder" ,
-        "githubrepo":"placeholder" ,
-        "githubpages": "placeholder",
+        "projectName":"Team profile generator" ,
+        "githubrepo":"https://github.com/ihsanm/Team-profile-generator" ,
+        "githubpages": "no deployed link for this one sadly, install the repo on your local machine and watch it work",
         "image": "placeholder",
         "description": "placeholder"
 
