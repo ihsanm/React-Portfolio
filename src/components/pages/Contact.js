@@ -1,18 +1,14 @@
 import React from 'react';
-import spaceimg from "../../assets/images/image1.jpg"
 import {SocialIcon} from "react-social-icons"
 
-const background = {
-  backgroundImage: `url(${spaceimg})`,
-  backgroundRepeat: "no-repeat",
-  backgroundSize: "cover",
-}
+
 
 function Contact() {
   
 
   return (
-    <div style={background}>
+    <div className='contactme'>
+        <div className='contact-div'>
       <h1 className='contact-heading'>Contact me!</h1>
       <form id="contact-form" name="contact-form" className='contact-div'>
 <div className="row">
@@ -74,6 +70,7 @@ function Contact() {
 
 
 </form>
+</div>
     </div>
   );
 }

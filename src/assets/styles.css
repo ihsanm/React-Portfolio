@@ -1,7 +1,7 @@
 /* Home styling */
 .welcome {
     color: whitesmoke;
-    font-size: 70px;
+    font-size: 60px;
     
 }
 .welcome-p{
@@ -94,6 +94,19 @@ background-color: grey;
 
 .contact-div {
     padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.contactme{
+    background-image: url(./images/image3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:fixed;
+    width:100%;
+    height:100%;
+    top: auto;
+    left:0px;
+    z-index:1000;
 }
 
 .icon{
