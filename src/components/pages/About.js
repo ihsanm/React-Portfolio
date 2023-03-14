@@ -1,5 +1,7 @@
 import React from "react";
 import "../../assets/styles.css";
+// import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
+import {} from "@fortawesome/free-solid-svg-icons"
 
 function About() {
   return (
@@ -12,6 +14,7 @@ function About() {
         semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
         rhoncus mollis diam, sit amet facilisis lectus blandit at.
       </p>
+      
       
     </div>
   );

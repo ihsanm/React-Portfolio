@@ -32,9 +32,15 @@
 .card {
     width: 25%;
     display: inline-block;
+    
 }
 /* project gallery styling */
-.projects-div {
-    height: 100px;
-    margin-bottom: 150px;
-}
+
+/* .project-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+} */
+/* .projects{
+    width:500px
+} */

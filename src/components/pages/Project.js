@@ -1,26 +1,31 @@
 import React from "react";
 import "../../assets/styles.css";
 
+
 function Project(props) {
     return (
-      <div className="card container col-lg-3">
+    
+            <div className="col-sm-12 col-lg-6">
+        <div className="card">
         <div className="img-container">
           <img alt={props.projectName} src={props.image} />
         </div>
         <div className="content">
           <ul>
             <li>
-              <strong></strong> {props.projectName}
+            {props.projectName}
             </li>
             <li>
-              <strong>Repo</strong> {props.githubrepo}
+         {props.githubrepo}
             </li>
             <li>
-              <strong>Pages</strong> {props.githubpages}
+              {props.githubpages}
             </li>
           </ul>
         </div>
       </div>
+      </div>
+      
     );
   }
   

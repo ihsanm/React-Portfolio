@@ -5,8 +5,8 @@ import "../../assets/styles.css";
 
 function ProjectGallery() {
   return (
-    <div className="projects-div">
-    
+    <div class="row">
+      
       <Project
       projectName= {projects[0].projectName}
       image = {projects[0].image}
@@ -15,6 +15,8 @@ function ProjectGallery() {
       description = {projects[0].description}
 
       />
+
+      
       <Project
       projectName= {projects[1].projectName}
       image = {projects[1].image}
@@ -23,6 +25,7 @@ function ProjectGallery() {
       description = {projects[1].description}
       />
 
+      
       <Project
       projectName= {projects[2].projectName}
       image = {projects[2].image}
@@ -32,7 +35,7 @@ function ProjectGallery() {
       
       />
 
-
+     
       <Project
       projectName= {projects[3].projectName}
       image = {projects[3].image}
@@ -41,7 +44,7 @@ function ProjectGallery() {
       description = {projects[3].description}
       
       />
-
+       
       <Project
       projectName= {projects[4].projectName}
       image = {projects[4].image}
@@ -50,6 +53,7 @@ function ProjectGallery() {
       description = {projects[4].description}
       
       />
+      
       <Project
       projectName= {projects[5].projectName}
       image = {projects[5].image}
