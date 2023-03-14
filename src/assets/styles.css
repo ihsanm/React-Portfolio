@@ -12,7 +12,8 @@
 /* About section styling */
 .about-div{
     background-color: #0a0909;
-    height: 500px;
+    height: 60;
+    display: flex;
     
 }
 .about-heading{
@@ -20,6 +21,18 @@
     text-align: center;
 }
 
+.profilepic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  margin-top: 20px;
+  padding:10px
+    
+}
+.about-text{
+    color: whitesmoke
+}
 /* navbar styling */
 .nav {
     background-color: #0a0909;
@@ -38,3 +51,4 @@
 .main-card :hover {
 background-color: aqua;
 }
+

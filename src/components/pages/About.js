@@ -1,22 +1,20 @@
 import React from "react";
 import "../../assets/styles.css";
-// import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
-import {} from "@fortawesome/free-solid-svg-icons"
+import avatar from "../../assets/images/profile-pic.jpg"
 
 function About() {
   return (
-    <div className="about-div">
+    <section className="about-div">
+      <div>
+      <img className="profilepic rounded-circle" src={avatar} alt="profile img"></img>
       <h1 className="about-heading">About Me</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
-        mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
-        porta. Nam quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam
-        semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
-        rhoncus mollis diam, sit amet facilisis lectus blandit at.
+      <p className="about-text">
+        Hi i'm Ihsan im a junior developer who loves coding and solving puzzles.
+        I'm currently a student in the front end skills bootcamp gathering skills in html, javascript, css, react.
       </p>
+      </div>
       
-      
-    </div>
+    </section>
   );
 }
 
