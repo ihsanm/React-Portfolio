@@ -3,7 +3,7 @@
         "projectName":"City crime data" ,
         "githubrepo":"https://github.com/ihsanm/City-crime-data" ,
         "githubpages": "https://ihsanm.github.io/City-crime-data/",
-        "image": "url(../../assets/images/city-crime-data.png)",
+        "image": "city-crime-data.png",
         "description": "Want to know the crime rates in your area?, take a look at this!"
 
     },
@@ -11,7 +11,7 @@
         "projectName":"Password generator" ,
         "githubrepo":"https://github.com/ihsanm/Password-Generator" ,
         "githubpages": "placeholder",
-        "image": "../../../assets/images/city-crime-data.png",
+        "image": "password-generator.png",
         "description": "placeholder"
 
     },
@@ -19,7 +19,7 @@
         "projectName":"Weather dashboard" ,
         "githubrepo":"https://github.com/ihsanm/Weather-dashboard" ,
         "githubpages": "https://ihsanm.github.io/Weather-dashboard/",
-        "image": "placeholder",
+        "image": "weather-dashboard.png",
         "description": "lorep ipsum"
 
     },
@@ -27,7 +27,7 @@
         "projectName":"Code quiz" ,
         "githubrepo":"https://github.com/ihsanm/Code-Quiz" ,
         "githubpages": "https://ihsanm.github.io/Code-Quiz/",
-        "image": "placeholder",
+        "image": "code-quiz.png",
         "description": "placeholder"
 
     },
@@ -35,7 +35,7 @@
         "projectName":"Work day scheduler" ,
         "githubrepo":"https://github.com/ihsanm/Work-day-scheduler" ,
         "githubpages": "https://ihsanm.github.io/Work-day-scheduler/",
-        "image": "placeholder",
+        "image": "Work-day-sch.png",
         "description": "placeholder"
 
     },
@@ -43,7 +43,7 @@
         "projectName":"Team profile generator" ,
         "githubrepo":"https://github.com/ihsanm/Team-profile-generator" ,
         "githubpages": "no deployed link for this one sadly, install the repo on your local machine and watch it work",
-        "image": "placeholder",
+        "image": "team-profile-generator.png",
         "description": "placeholder"
 
     }

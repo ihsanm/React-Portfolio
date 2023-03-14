@@ -1,6 +1,7 @@
 /* Home styling */
 .jumbotron{
     margin-bottom: 0px;
+    height: 100%; 
 }
 
 .welcome {
@@ -38,14 +39,20 @@
 .nav {
     background-color: #0a0909;
 }
-.nav-text{
-    color:whitesmoke;
+
+.active {
+    color:black !important
 }
 
 /* project styling */
-.card {
-    height: 50px;
-    width: 100%;
+.card{
+    width:500px !important;
+    background-color: black !important
+    ;
+}
+.card-img-top {
+    height: 400px;
+    width: 200px;
     display: inline-block;
     
 }
