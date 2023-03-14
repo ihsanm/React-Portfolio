@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.70ffbdb5.css",
+    "main.js": "/React-Portfolio/static/js/main.acce7506.js",
+    "static/media/image3.jpg": "/React-Portfolio/static/media/image3.2c65563f075f212f385f.jpg",
+    "static/media/screenshot.png": "/React-Portfolio/static/media/screenshot.d40fb6207278d3e07b0c.png",
+    "static/media/image2.jpg": "/React-Portfolio/static/media/image2.ee2922854adec9e72508.jpg",
+    "static/media/image1.jpg": "/React-Portfolio/static/media/image1.71b2ce16a82a2518fa14.jpg",
+    "static/media/profile-pic.jpg": "/React-Portfolio/static/media/profile-pic.9cbb0bdc6c8af969ced9.jpg",
+    "static/media/city-crime-data.png": "/React-Portfolio/static/media/city-crime-data.6b57725009dbb4824040.png",
+    "static/media/password-generator.png": "/React-Portfolio/static/media/password-generator.8c9e7cab6d931821ae9f.png",
+    "static/media/code-quiz.png": "/React-Portfolio/static/media/code-quiz.51a0b2661b1191030de9.png",
+    "static/media/weather-dashboard.png": "/React-Portfolio/static/media/weather-dashboard.3df0c9a858ce443f57b3.png",
+    "static/media/Work-day-sch.png": "/React-Portfolio/static/media/Work-day-sch.e56b155853a7609d8edb.png",
+    "static/media/team-profile-generator.png": "/React-Portfolio/static/media/team-profile-generator.c50beed0e1458ded4966.png",
+    "index.html": "/React-Portfolio/index.html",
+    "main.70ffbdb5.css.map": "/React-Portfolio/static/css/main.70ffbdb5.css.map",
+    "main.acce7506.js.map": "/React-Portfolio/static/js/main.acce7506.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70ffbdb5.css",
+    "static/js/main.acce7506.js"
+  ]
+}
