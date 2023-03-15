@@ -10,7 +10,7 @@
     {
         "projectName":"Password generator" ,
         "githubrepo":"https://github.com/ihsanm/Password-Generator" ,
-        "githubpages": "placeholder",
+        "githubpages": "https://ihsanm.github.io/Password-Generator/",
         "image": "password-generator.png",
         "description": "Need help coming up with a good password, look no further we got you covered!"
 

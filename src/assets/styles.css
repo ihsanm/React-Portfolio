@@ -73,9 +73,6 @@
     display: inline-block;
     
 }
-.main-card :hover {
-background-color: grey;
-}
 .gallery{
     background-image: url(./images/image3.jpg);
     background-repeat: no-repeat;
