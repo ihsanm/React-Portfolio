@@ -41,7 +41,23 @@
 .nav {
     background-color: #0a0909;
 }
-
+.nav-item{
+    padding: 15px;
+}
+.nav-text{
+    text-decoration: none;
+    margin: 10px 0 0 10px;
+    color: whitesmoke;
+    transition: 0.5s;
+}
+.nav-text:hover{
+    text-decoration: none;
+    color: lightskyblue;
+}
+.nav-bg{
+    background-color: rgba(0, 0, 0, 0.9);
+    
+}
 
 /* project styling */
 .card{
